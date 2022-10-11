@@ -47,6 +47,7 @@ div{
 .n1,.n2,.n3{
     margin-right: 10px;
     color: rgba(0, 0, 214, 0.76);
+    text-decoration: none;
 }
 main{
     text-align: center;
