@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+body{
+    font-family: sans-serif;
+}
+div{
+    background-color: rgb(182, 157, 124);
+    width:200px ;
+    height: 200px;
+    text-align: center;
+    border: solid black;
+    display: inline-block;
+    
+}
+div:hover{/* haver= é para quando o mouse passa por cimar fazer uma coisa*/
+    background-color: black;
+    width: 600px;
+    height:500px ;
+}
