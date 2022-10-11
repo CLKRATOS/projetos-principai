@@ -1,0 +1,28 @@
+main{
+    width:220px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 10px;
+    border-color: 30px;
+    padding: 6px;
+    box-shadow: 0px 0px 4px 3px black;
+    margin-block: 50px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:linear-gradient(to right, rgb(255, 145, 0),rgb(139, 79, 0))
+}
+h1{
+    text-align: center;
+    filter: drop-shadow(5px 5px 5px  rgb(255, 255, 255));
+}
+li{
+    color: rgb(0, 0, 0);
+}
+dl{
+    margin-left: 25px;
+}
+p{
+    width: 400px;
+   
+}
