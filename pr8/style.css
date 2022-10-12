@@ -10,22 +10,28 @@ form{
     margin: auto;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 1px 0px 0px 2px rgba(0, 0, 0, 0.664);
+    box-shadow: 1px 0px 2px 4px rgba(0, 0, 0, 0.664);
     margin-top: 80px;
    
 }
+
 .a{
     color: antiquewhite;
     background-color: rgb(58, 50, 50);
     margin-top: 30px;
-    width: 80px;
-    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.664);
-    padding: 3px;
-    border-radius: 5px;
+    width: 90px;
+    box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.664);
+    padding: 7px;
+    border-radius: 10px;
     font-size: 15px;
     
 }
+.a:hover{
+    color:cyan;
+    text-shadow: 3px 2px 8px cyan;
+    box-shadow:1px 2px 8px cyan ;
 
+}
 label{
     font-size:  15px;
 }
@@ -36,10 +42,16 @@ input{
     border-radius: 100px;
     padding: 5px;
     box-shadow: 0px 0px 0px 1px black;
+    
 }
 .q{
     padding: 10px;
     width: 90px;
+}
+.q:hover{
+    color:cyan;
+    text-shadow: 3px 2px 8px cyan;
+    box-shadow:0px 2px 8px cyan ;
 }
 div{
     text-align: right;
@@ -49,6 +61,25 @@ div{
     color: rgb(0, 0, 255);
     text-decoration: none;
 }
+.n1:hover{
+    color:antiquewhite
+}
+.n2:hover{
+    color:antiquewhite
+}
+.n3:hover{
+   color: antiquewhite;
+}
+.n1:active{
+    color:brown;
+}
+.n2:active{
+    color:brown;
+}
+.n3:active{
+    color:brown;
+}
+
 main{
     text-align: center;
 }
