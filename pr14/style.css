@@ -29,23 +29,21 @@ form{
     margin-top: 50px;
 }
 input{
-    font-size: 15px;
+    font-size: 13px;
     background-color: rgb(207, 82, 203) ;
     border-radius: 10px;
     box-shadow: 1px 0px 2px 2px black ;
     margin-bottom: 30px;
     height:  1.4em;
-  
-   
-    
-   
+    color: black ;
+    text-shadow: 1px 0px 2px black ;
 }
 label{
     color: black;
-    text-shadow: 1px 0px 2px black ;
+    text-shadow: 2px 1px 10px black ;
 }
 #butão{
-    
+    color: black;
     margin-block: 10px;
     font-size: 0.8em;
     font-family: sans-serif;
@@ -54,6 +52,4 @@ label{
     background-color: rgb(206, 80, 202);
     box-shadow: 1px 0px 10px 1px black;
     text-shadow: 1px 0px 2px black ;
-    
-
 }
