@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+h1{
+    font: bolder 3em arial;
+    text-align: center;
+}
+
+table{
+   margin: auto;
+   height: 1px;
+   background-color: black;
+}
+table:hover {
+    width:300px;
+    height: 300px;
+    margin: auto;
+    background-color: violet;
+    border: solid blue;
+    
+}
+td,th{
+    border: solid black;
+}
