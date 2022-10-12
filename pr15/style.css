@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+ /*pseudo-classe =elas definem estado de elemento dentro do html*/
+        /*Pseudo-elementos = eles mexem no comteudo do elemento */
+        body{
+            font-family:sans-serif;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: darkred;
+        }
+        a:visited{/* Quando nós ja usamos ou ja acessamos ou quando nós clicamos*/
+            color:blue;
+        }
+        a:active{/* ele e usanós para quando clicar aparece uma coisa */
+            color: gold;
+        }
+        a::after{/*é usador para colocar uma coisa no final do texto ou elemento  */
+            margin-left:5px;
+            color: aquamarine;
+            content: '[link]';
+        }
+        a::before{/*vai azer a mesma coisa que after so que no início do texto ou elemento */
+            margin-right:5px;
+            content: 'cnwejk';
+            color: crimson;
+        }
+
+        p{
+            font-family: monospace;
+        }
+        p:hover{
+            color:rgba(179, 0, 0, 0.849);
+        }
+       
+        div > p{
+            display: none;
+            text-align: center;
+            text-align:right;
+            color:black;
+        }
+        div:hover > p {
+            display:block;
+            
+        }
+        div{
+            margin-top:30px;
+        }
+        .a:visited{
+            color:blue;
+        }
+        div > .a{
+            display: none;
+            text-align: center;
+            text-align:right;
+            color:black;
+        }
+      
+        div:hover > .a{
+            display:block;
+           
+        }
+        div > img{
+            display: none;
+            margin-left:40%;
+        }
+        div:hover > img {
+            display:block;
+            color:black;
+        }
+        table{
+            margin-top: 20px;
+        }
+        table:hover{
+            background-color: aqua;
+           
+        }
+        th:hover{
+            text-decoration:underline;
+            color:white;
+        }
+        td:hover{
+            text-decoration:underline;
+            color:white;
+        }
+        
