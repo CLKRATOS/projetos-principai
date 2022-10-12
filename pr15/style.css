@@ -1,7 +1,7 @@
 @charset "utf-8";
 
-/*:first-child = ela vai modifica a primeira coisa como por exmplo uma lista */
-/*:last-child = ela vai modifica a utimar coisa como uma lista */
+/*::first-child = ela vai modifica a primeira coisa como por exmplo uma lista */
+/*::last-child = ela vai modifica a utimar coisa como uma lista */
 
  /*pseudo-classe =elas definem estado de elemento dentro do html*/
         /*Pseudo-elementos = eles mexem no comteudo do elemento */

@@ -2,7 +2,7 @@
 
 body{
     font:bolder 1.4em arial;
-    background-image: linear-gradient(to right,  orchid, rgb(255, 0, 247));
+    background-image: linear-gradient(to right,  rgba(190, 95, 187, 0.753), rgba(196, 37, 190, 0.795));
 }
 h1{
     font-size: 30px;
@@ -12,44 +12,91 @@ h1{
     margin-bottom: 30px;
     box-shadow: 1px 0px 2px 2px  ;
 }
+h1:hover{
+    color:antiquewhite;
+    text-shadow: 1px 1px 1px white;
+}
 img{
    text-align-last: center;
    margin-block: 4px;
    height:70px;
 }
+
 form{
-    border-radius: 4px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius:40px;
     text-align: center;
-    padding: 10px;
+    padding: 14px;
     margin: auto;
     width:300px;
     height:400px;
     background-color: orchid;
     box-shadow: 1px 0px 10px 2px  ;
     margin-top: 50px;
+    border: solid 2px black;
+
 }
 input{
-    font-size: 13px;
-    background-color: rgb(207, 82, 203) ;
-    border-radius: 10px;
+    font-family:sans-serif;
+    font-size: 15px;
+    background-color: transparent;
+    border-radius: 17px;
     box-shadow: 1px 0px 2px 2px black ;
     margin-bottom: 30px;
     height:  1.4em;
-    color: black ;
-    text-shadow: 1px 0px 2px black ;
+    color:black ;
+    text-shadow: 0px 0px 1px black ;
+    text-align: center ;
+    
 }
+
 label{
     color: black;
     text-shadow: 2px 1px 10px black ;
+}
+label:hover{
+    color:white;
+    text-shadow: 2px 2px 10px white;
+    
 }
 #butão{
     color: black;
     margin-block: 10px;
     font-size: 0.8em;
     font-family: sans-serif;
-    border-radius: 10px;
+    border-radius: 17px;
     height: 2em;
+    width: 4em;
     background-color: rgb(206, 80, 202);
-    box-shadow: 1px 0px 10px 1px black;
+    box-shadow: 0px 4px 10px 1px black;
     text-shadow: 1px 0px 2px black ;
+}
+#butão:hover{
+    text-shadow: 0px 2px 1px antiquewhite;
+    box-shadow:2px 4px 7px 3px antiquewhite;
+}
+div{
+    text-align:right;
+}
+.n1,.n2,.n3{
+    text-align:left;
+    margin-right:10px;
+    margin-left:10px;
+    color:rgb(0, 0, 255);
+    font:normal 0.7em arial ;
+    text-decoration:none;
+    text-shadow:0px 0px 1px rgb(0, 0, 255)   
+
+}
+.n1:hover{
+    color:white;
+    text-decoration:underline;
+}
+.n2:hover{
+    color:white;
+    text-decoration:underline;
+}
+.n3:hover{
+    color:white;
+    text-decoration:underline;
 }
