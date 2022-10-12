@@ -1,0 +1,59 @@
+@charset "uft-8";
+
+body{
+    font:bolder 1.4em arial;
+    background-image: linear-gradient(to right,  orchid, rgb(255, 0, 247));
+}
+h1{
+    font-size: 30px;
+    background-color: rgb(207, 82, 203) ;
+    border-radius: 7px;
+    text-shadow: 1px 0px 2px black ;
+    margin-bottom: 30px;
+    box-shadow: 1px 0px 2px 2px  ;
+}
+img{
+   text-align-last: center;
+   margin-block: 4px;
+   height:70px;
+}
+form{
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width:300px;
+    height:400px;
+    background-color: orchid;
+    box-shadow: 1px 0px 10px 2px  ;
+    margin-top: 50px;
+}
+input{
+    font-size: 15px;
+    background-color: rgb(207, 82, 203) ;
+    border-radius: 10px;
+    box-shadow: 1px 0px 2px 2px black ;
+    margin-bottom: 30px;
+    height:  1.4em;
+  
+   
+    
+   
+}
+label{
+    color: black;
+    text-shadow: 1px 0px 2px black ;
+}
+#butão{
+    
+    margin-block: 10px;
+    font-size: 0.8em;
+    font-family: sans-serif;
+    border-radius: 10px;
+    height: 2em;
+    background-color: rgb(206, 80, 202);
+    box-shadow: 1px 0px 10px 1px black;
+    text-shadow: 1px 0px 2px black ;
+    
+
+}
