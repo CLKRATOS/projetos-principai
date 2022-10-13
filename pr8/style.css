@@ -9,9 +9,13 @@ form{
     text-align: center  ;
     margin: auto;
     padding: 20px;
-    border-radius: 5px;
     box-shadow: 1px 0px 2px 4px rgba(0, 0, 0, 0.664);
     margin-top: 80px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius:70px;
+
    
 }
 
@@ -22,7 +26,10 @@ form{
     width: 90px;
     box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.664);
     padding: 7px;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius:25px;
     font-size: 15px;
     
 }
@@ -63,13 +70,16 @@ div{
     text-decoration: none;
 }
 .n1:hover{
-    color:antiquewhite
+    color:antiquewhite;
+    text-decoration:underline;
 }
 .n2:hover{
-    color:antiquewhite
+    color:antiquewhite;
+    text-decoration:underline;
 }
 .n3:hover{
    color: antiquewhite;
+   text-decoration:underline;
 }
 .n1:active{
     color:brown;
@@ -81,6 +91,7 @@ div{
     color:brown;
 }
 
-main{
+.buttoon{
+    
     text-align: center;
 }
