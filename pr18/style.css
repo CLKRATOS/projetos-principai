@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+body{
+    
+}
+
+div {
+    width: 700px;
+    background-color: grey;
+    text-align: center;
+    margin: auto;
+}
+header{
+    display: inline-block;
+}
+header > img {
+    margin-left: auto;
+}
