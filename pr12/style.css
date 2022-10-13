@@ -12,7 +12,7 @@ div{
     display: inline-block;
     
 }
-div:hover{/* haver= é para quando o mouse passa por cimar fazer uma coisa*/
+div:hover{/* hover= é para quando o mouse passa por cimar fazer uma coisa*/
     background-color: black;
     width: 600px;
     height:500px ;
