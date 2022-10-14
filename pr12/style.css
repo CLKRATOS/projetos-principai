@@ -17,3 +17,9 @@ div:hover{/* hover= é para quando o mouse passa por cimar fazer uma coisa*/
     width: 600px;
     height:500px ;
 }
+/*
+:active = quando é ativador 
+:visited = quando foi usador 
+::after = depois do elemento 
+::before = antes do elemento]
+*/
