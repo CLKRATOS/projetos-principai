@@ -4,20 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <input type="text" name="cpf" pattern="\d{3}\.?\d{3}\.?\{3}-?\d{2}\" >
-    <option value="i" selected>mindo</option>
-    <select name="curso" id="">
-        <option value="ss">ssss</option>
-        <option value="kk">kkkkkkk</option>
-    </select>
-    <details>
-        <summary>i</summary>
-        <h2>wwwwwwww   </h2>
-        <p>sssss Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores quos, iste veritatis, laboriosam atque numquam fugiat animi perspiciatis, sequi quidem laudantium! Quo ea repellendus tempora dolores quis aspernatur quas illo?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores alias aspernatur iure odio dignissimos harum labore, corporis ab perferendis natus facere iusto cumque nulla quibusdam sint pariatur accusantium exercitationem fugit.</p>
-    </details>
+    <nav>
+        <a href="mailto:">Enviar um E-mail</a><br>
+        <a href="" >Ajudar</a>
+    </nav>
+    <div class="fomulario">
+        <h1>Registro</h1>
+        <form action="">
+            <label id="nome">Nome Completo </label>
+            <input type="text" name="nome" required class="n"><br>
+            <label for="" id="pai">Nome Do Pai </label>
+            <input type="text" name="nome_do_pai" required class="n2"><br>
+            <label for="" id="mae">Nome Da Mãe </label>
+            <input type="text" name="nome_do_mãe" required class="n3"><br>
+            <label for="" id="data">Data De  Nascimento</label>
+            <input type="date" name="data" required class="data"><br>
+            <label id="email">E-Mail</label>
+            <input type="email" name="Email" required class="i"><br>
+            <label for="" id="senha">Senha</label>
+            <input type="password" name="Senha" class="i" required><br>
+            <button type="submit">Concluir</button>
+        </form>
+        
+    </div>
+    
 </body>
 </html>
