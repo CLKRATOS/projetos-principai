@@ -129,6 +129,7 @@ ul{
     list-style-position: inside;
     columns: 2;
     padding-left: 10px;
+   
 }
 footer{
     background-color: black;
@@ -142,5 +143,5 @@ footer > p {
     margin-bottom: 0px;
     padding: 5px;
     font-size: 0.8em;
-   
+    
 }
