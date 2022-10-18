@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-body{
+body{ 
     margin: 0px;
     font-family: sans-serif;
     background-color: rgb(0, 255, 128);
@@ -20,13 +20,7 @@ nav{
     text-align: left;
     padding-bottom: 10px;
 }
-nav > a {
-    color: antiquewhite;
-    text-decoration: none;
-    margin-right: 2px;
-    margin-left: 8px;
-    
-}
+
 nav:hover > a {
     color: blue;
     text-decoration: underline;
@@ -38,19 +32,82 @@ main{
     margin-top: 0px;
     padding: 10px;
     box-shadow: 0px 2px 10px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
-
- p{
+p{
     text-indent: 20px;
     text-align: justify;
     margin: auto;
 }
-
-
 .imagem{
     text-align: center;
 }
 iframe{
-    margin-left: 90px;
-    margin-top: ;
+    width: 600px    ;
+    border: 20px solid green;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+}
+.aprender {
+    border: 2px solid black;
+    padding: 10px ;
+}
+.aprender > h5 {
+    color:white ;
+    padding-left: 10px;
+    background-color: rgb(0, 155, 0);
+    padding: 10px;
+    
+}
+.u{
+    margin-right: 300px;
+}
+.p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(230, 214, 214);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    margin-top: 20px;
+    padding-top:10px ;
+}
+footer > p {
+    text-align: center;
+}
+a{
+    margin-left: 10px;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+.n1:hover{
+    color: antiquewhite;
+    text-decoration: none;
+    margin-right: 2px;
+    margin-left: 8px;
+}
+.n2:hover{
+    color: antiquewhite;
+    text-decoration: none;
+    margin-right: 2px;
+    margin-left: 8px;
+}
+.n3:hover{
+    color: antiquewhite;
+    text-decoration: none;
+    margin-right: 2px;
+    margin-left: 8px;
+}
+.n4:hover{
+    color: antiquewhite;
+    text-decoration: none;
+    margin-right: 2px;
+    margin-left: 8px;
 }
