@@ -9,23 +9,36 @@ form{
     text-align: center  ;
     margin: auto;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 1px 0px 0px 2px rgba(0, 0, 0, 0.664);
+    box-shadow: 1px 0px 2px 4px rgba(0, 0, 0, 0.664);
     margin-top: 80px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius:70px;
+
    
 }
+
 .a{
     color: antiquewhite;
     background-color: rgb(58, 50, 50);
     margin-top: 30px;
-    width: 80px;
-    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.664);
-    padding: 3px;
-    border-radius: 5px;
+    width: 90px;
+    box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.664);
+    padding: 7px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius:25px;
     font-size: 15px;
     
 }
+.a:hover{
+    color:cyan;
+    text-shadow: 3px 2px 8px cyan;
+    box-shadow:1px 2px 8px cyan ;
 
+}
 label{
     font-size:  15px;
 }
@@ -36,10 +49,17 @@ input{
     border-radius: 100px;
     padding: 5px;
     box-shadow: 0px 0px 0px 1px black;
+    text-align:center;
+    
 }
 .q{
     padding: 10px;
     width: 90px;
+}
+.q:hover{
+    color:cyan;
+    text-shadow: 3px 2px 8px cyan;
+    box-shadow:0px 2px 8px cyan ;
 }
 div{
     text-align: right;
@@ -49,6 +69,29 @@ div{
     color: rgb(0, 0, 255);
     text-decoration: none;
 }
-main{
+.n1:hover{
+    color:antiquewhite;
+    text-decoration:underline;
+}
+.n2:hover{
+    color:antiquewhite;
+    text-decoration:underline;
+}
+.n3:hover{
+   color: antiquewhite;
+   text-decoration:underline;
+}
+.n1:active{
+    color:brown;
+}
+.n2:active{
+    color:brown;
+}
+.n3:active{
+    color:brown;
+}
+
+.buttoon{
+    
     text-align: center;
 }
