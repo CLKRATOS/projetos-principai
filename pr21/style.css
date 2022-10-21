@@ -7,20 +7,21 @@
 }
 
 body{
-    
+    background-image: linear-gradient(to right,  rgb(0, 131, 55),  rgba(0, 218, 91, 0.74) );
 }
 
 header{
-    background-image: linear-gradient(to top,  rgb(0, 131, 55),  rgba(0, 218, 91, 0.74) );
+    background-image: linear-gradient(to top,  rgb(0, 90, 38),  rgba(0, 218, 91, 0.74) );
     text-align: center;
     font-family: sans-serif;
     padding-bottom: 1px;
+    color: white;
 }
 
 .titulor{
     padding-top: 28px;
     padding-bottom: 10px;
-    font-size: 2.4em;
+    font-size: 3em;
 }
 nav{
     margin-top: 40px;
@@ -39,6 +40,18 @@ nav a:hover{
     
     text-decoration: underline;
     box-shadow: inset 0px 0px 10px white;
+}
+
+main{
+    max-width: 800px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 1px black;
+
+
 }
 
 .login{
@@ -71,6 +84,16 @@ nav a:hover{
     color: rgba(255, 255, 255, 0.767);
     border-radius: 5px;
     text-align: center;
+}
+
+.historia{
+    font-size: 2.2em;
+    font-family: sans-serif;
+    color: rgba(17, 190, 1, 0.781);
+
+}
+#historia{
+    font-size:1.1em;
 }
 
 input{
