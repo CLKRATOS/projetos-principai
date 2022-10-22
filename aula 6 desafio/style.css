@@ -20,6 +20,7 @@ header{
     text-align: center;
     background-image: linear-gradient(to bottom,  #85e1b5 , #1b5c3c);
     box-shadow: 0px 5px 10px black;
+    
    
     
 }
@@ -85,6 +86,7 @@ main img.imagem{
     max-width: 350px;
     display:block;
     margin: auto;
+    position:sticky;
 }
 
 div.video{

@@ -68,8 +68,8 @@ main{
 }
 
 #login{
-    style=" font-family: sans-serif;
-    background-color: rgb(2, 238, 255);"
+    font-family: sans-serif;
+    background-color: rgb(2, 238, 255);
 }
 .cl{
     margin: 30px auto auto auto;
