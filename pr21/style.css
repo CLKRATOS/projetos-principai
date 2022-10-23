@@ -117,7 +117,27 @@ main{
 
     
 }
-
+.peca{
+    padding-top:30px;
+    font-size: 2.2em;
+    font-family: sans-serif;
+    color: rgba(17, 190, 1, 0.781);
+}
+#peca {
+    padding-top:20px ;
+    font-size: 1.1em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+}
+#peca:hover  {
+    text-decoration: underline;
+    color: rgb(102, 61, 61);
+}
 input{
     margin-bottom: 20px;
     padding: 5px;
