@@ -37,6 +37,7 @@ form{
     color:cyan;
     text-shadow: 3px 2px 8px cyan;
     box-shadow:1px 2px 8px cyan ;
+    transition-duration: 1s;
 
 }
 label{
@@ -52,6 +53,11 @@ input{
     text-align:center;
     
 }
+.psenha{
+    font-size:0.6em;
+    font-style: italic;
+}
+
 .q{
     padding: 10px;
     width: 90px;
@@ -60,6 +66,7 @@ input{
     color:cyan;
     text-shadow: 3px 2px 8px cyan;
     box-shadow:0px 2px 8px cyan ;
+    transition-duration:1s;
 }
 div{
     text-align: right;
