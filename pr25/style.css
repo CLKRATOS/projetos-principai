@@ -6,34 +6,43 @@
     padding:0px;
     font-family: sans-serif;
 }
-
+body{
+    background-color: rgb(45, 47, 41);
+}
 .containe{
     max-width: 400px;
     margin: 50px auto auto auto;
-    background-color: aqua;
-
 }
 .containe H1 {
     text-align: center;
     padding: 10px;
+    text-shadow: 0px 1px 10px rgb(203, 129, 129);
+    text-transform: uppercase;
+    color: aliceblue;
+
+}
+form{
+    border:1px solid black;
+    background-color:  rgb(32, 34, 29);
 }
 label{
     margin-left: 20px;
     margin-right: 40px;
     font-size: 1.2em;
+    font-weight: bolder;
+    color: antiquewhite;
+    text-shadow: 0px 1px 10px rgb(203, 129, 129);
     
 }
 input{
-    border-radius: 5px;
-    border: 1px solid black;
-    padding: 1.1px;
-}
-button{
+    border-radius: 7px;
+    border: none;
+    padding:3px;
     text-align: center;
-    margin-left: 40%;
-    font-size: 18px;
-    padding: 5px;
+    box-shadow:inset 0px 0px 9px 4px rgb(41, 26, 26);
+    background-color: ;
 }
+
 .sobrenome{
     padding-left: 12px;
 }
@@ -41,7 +50,7 @@ button{
     margin-left: 52px;
 }
 .senha{
-    margin-left: 49px;
+    margin-left: 50px;
 }
 #nome{
     margin-top: 20px;
@@ -50,16 +59,47 @@ button{
     margin-left: 20px;
 }
 #sobrenone{
-    margin-left: 15px;
+    margin-left: 18px;
     margin-top: 14px;
 }
 #email{
-    margin-left: 39px;
+    margin-left: 44px;
     margin-top: 14px;
 }
 #senha{
-    margin-left: 41px;
+    margin-left: 45px;
     margin-top: 14px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+}
+button{
+    text-align: center;
+    margin-left: 40%;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom:10px;
 }
 
+.conta{
+    background-color:  rgb(32, 34, 29);
+    color: antiquewhite;
+    width: 250px;
+    margin-left:50%;
+    transform: translate(-50%);
+    margin-top: 30px;
+    text-align: center;
+    border:0.8px solid black;
+    padding: 9px 0px 9px 0px ;
+
+}
+.conta a {
+    color: rgb(100, 100, 221);
+    text-decoration: none;
+}
+.conta a:visited{
+    color: black;
+
+}
+.conta a:hover{
+    color:white;
+    text-decoration: underline;
+}
