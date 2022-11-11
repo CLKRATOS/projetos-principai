@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeitos</title>
+</head>
+<body>
+    <hr size="7 " color="blue">
+    <marquee behavior="scroll" width="30%"><font color="red" >Texto 1 </font></marquee>
+    <marquee behavior="scroll" direction="right" width="30%">Texto 2 </marquee>
+    <marquee behavior="scroll"  width="50%">Texto 3 </marquee>
+    <marquee behavior="scroll"  direction="right">Texto 4 </marquee>
+    <marquee behavior="scroll"  direction="left">Texto 5 </marquee>
+    <hr size="7" color="black">
+    <br><br><br>
+    <h2>Faixa decorativa com texto animado</h2>
+    <marquee behavior="alternate" direction="right" align="middle" bgcolor="yellow"  height="50%" width="90%" hspace="10" vspace="10" loop="infinite" scrollamount="3" scrodelay="20" >
+        <b>Efeito de texto</b>
+    </marquee>
+    <br><br><br>
+    <marquee behavior="scroll" direction="left" onmousedown="this.stop();" onmouseout="this.start();">Clique aqui</marquee>
+    <marquee behavior="scroll" direction="left" onmousedown="this.stop();" onmouseup="this.start();">Clique aqui</marquee>
+    <br><br><br>
+    <marquee behavior="scroll" direction="up" serollamount="50%" onmouseover="this.stop();" onmouseout="this.start();" ><font color="red"><b>Carlos elme-3</b></font></marquee>
+    <br><br><br>
+    <marquee behavior="scroll" direction="left" onmousedown="this.stop();" onmouseup="this.start();"> Clique aqui!</marquee>
+    <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseup="this.start();"> Clique aqui 2 !!</marquee>
+    <br><br><br>
+    <marquee behavior="sroll" direction="left" id="mymarquee">
+        <p>go on... pres the butto!</p>
+    </marquee>
+    <form>
+        <input type="button" value="stop marque"  onclick="document.getelementbyid('mymarquee').stop();">
+        <input type="button" value="start marque"  onclick="document.getelementbyid('mymarquee').start();">
+    </form> 
+    <br><br><br>
+    <marquee behavior="scroll" direction="left" scrollamount="20" id="marquee1" >
+        <p>marquee 1 </p>
+    </marquee>   
+    <marquee behavior="scroll" direction="left" scrollamount="20" id="marquee2" >
+        <p>marquee 2</p>
+    </marquee>   
+    
+    <form>
+        <input type="button" value="stop marque 1 " onclick="document.getelementbyid('marquee1').stop(); ">
+        <input type="button" value="stop marque 2 " onclick="document.getelementbyid('marquee2').start(); "><br>
+        <input type="button" value="stop marque 1 " onclick="document.getelementbyid('marquee1').stop(); ">
+        <input type="button" value="stop marque 2 " onclick="document.getelementbyid('marquee2').start(); ">
+    </form>
+
+
+</body>
+</html>
