@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family:sans-serif
+}
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.6LuTAg9EkgfJRKJDI8kShwHaHa?pid=ImgDet&rs=1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center bottom;
+    
+    
+}
+.conteine{
+    text-align:center;
+    border: 1px solid black;
+    width: 300px;
+    margin:200px auto auto auto;
+    padding: 10px;
+    background-color: rgba(165, 42, 42, 0.507);
+}
+h2{
+    margin-bottom: 10px;
+}
+label{
+    margin-top:10px
+}
+
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+
+}
