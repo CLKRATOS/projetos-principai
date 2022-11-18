@@ -11,7 +11,7 @@
     animation-name: j;
     animation-timing-function: ease-in-out;
     animation-duration: 5s;
-    ani
+    animation-iteration-count: infinite;
 }
 
 @keyframes j {
@@ -25,5 +25,23 @@
     }
 
     
+}
+.j{
+    position: absolute;
+}
+
+label:focus{
+    width: 220px;
+    color:red;
+    transform: translate(200px, 200px );
+}
+input{
+    position:relative;
+}
+input:focus{
+    width: 220px;
+    color:red;
+    transform: translate(200px, 200px );
+    transition-duration: 1s;
 }
 
