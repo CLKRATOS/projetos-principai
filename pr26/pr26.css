@@ -1,0 +1,29 @@
+.conteine{
+    background-color: aquamarine;
+    width: 200px;
+    height:200px;
+    text-align: center;
+  
+
+}
+
+.conteine:hover{
+    animation-name: j;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    ani
+}
+
+@keyframes j {
+    0%{
+        transform: translate(0px 0px );
+    }
+    
+    
+    50%{
+        transform: rotatey(360deg); border-radius:40px; background-color: black;
+    }
+
+    
+}
+
