@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeitos</title>
+</head>
+<body>
+    <hr size= 7 color=blue>
+    <marquee behavior=scrool width=30%><font color="red">texto1</font></marquee><br>
+    <marquee behavior=scrool direction=right width="30%">texto2</marquee><br>
+    <marquee behavior=scrool widht=50%>texto3</marquee><br>
+    <marquee behavior=slide direction="right">texto4</marquee><br>
+    <marquee behavior=slide direction="left">texto5</marquee><br>
+    <hr size= 7 >
+    <br><br><br>
+    <h2>Faixa decorativa com tecto animado</h2>
+    <marquee align="middle behavior=alternate bgcolor=yellow direction=right height=50% width=90%
+    hspace=10 vspace=10loop=infinite scrollamount=3 scrodelay=20"><b>Efeitos de texto</b></marquee>
+    <br><br><br>
+    <marquee behavior="scroll" direction="left" onmousedown="this.stop();" onmouseout="this.start();">Clique Aqui!
+    </marquee>
+    <br><br><br>
+    <marquee behavior="scroll" direction="left" onmousedown="this.stop();" onmouseup="this.start();">Prof Carlos
+    </marquee>
+    <br><br><br>
+    <marquee serollamount="50" behavior="scroll" direction="up" onmouseover="this.stop();"
+    onmouseout="this.start();"><font color="red"><b>corlos elmen-info 3</b></marquee></font>
+    <br><br><br>
+    <marquee behavior="scroll" direction="left" onmousedown="this.stop();" onmouseup="this.start();">Clique Aqui!
+    </marquee>
+    <br><br><br>
+    <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">Clique Aqui!2
+    </marquee>
+    <br><br><br>
+    <marquee behavior="scroll" direction="left" id="mymarquee">
+    <p>go on... press button!</p>
+    </marquee>
+    <input type="button" value="stop marquee" onclick="document.getElementById('mymarquee').stop();">
+    <input type="button" value="stop marquee" onclick="document.getElementById('mymarquee').start();">
+    <br><br><br>
+    <marquee behavior="scroll" direction="right" scrollamount="20" id="marquee1">
+    <p>marquee 1</p>
+    </marquee>
+    <marquee behavior="scroll" direction="right" scrollamount="20" id="marquee2">
+    <p>marquee 2</p>
+    </marquee>
+    <input type="button" value="stop marquee 1" onclick="document.getElementById('mymarquee1').stop();">
+    <input type="button" value="start marquee 1" onclick="document.getElementById('mymarquee1').start();">
+    <input type="button" value="stop marquee 2" onclick="document.getElementById('mymarquee2').stop();">
+    <input type="button" value="start marquee 2" onclick="document.getElementById('mymarquee2').start();">
+</body>
+</html>

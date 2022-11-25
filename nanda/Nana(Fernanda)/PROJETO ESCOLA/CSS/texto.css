@@ -1,0 +1,24 @@
+@import "folha.css" tipo-midia;
+/* Comentários */
+@media tipo-midia {
+    seletor {
+        propriedade: valor(es);
+    }
+}
+
+/* <h2> Textos </h2> */
+
+e {text-indent: 3em;
+}
+e {text-align: center;
+}
+e {text-decoration: underline;
+}
+e {letter-spacing: 0.1em;
+}
+e {word-spacing: 1em;
+}
+e {text-transform: capitalize;
+}
+e {white-space: pre;
+}

@@ -1,0 +1,33 @@
+@import "folha.css" tipo-midia;
+/* Comentários */
+@media tipo-midia {
+    seletor {
+        propriedade: valor(es);
+    }
+}
+
+/* <h2> Larguras das bordas </h2> */
+
+e {border-top-width: medium;
+     border-right-width: thick;
+          border-bottom-width: thin;
+             border-left-width: medium;
+}
+
+/* <h2> Estilo de bordas <h2> */
+
+e {border-left-style: dotted;
+      border-right-style: none;
+         border-bottom-style: double;
+             border-top-style: groove;
+}
+
+/* <h2> Cor das bordas <h2> */
+
+e {border-top-color: purple;
+     border-right-color: brown silver;
+         border-bottom-color: crimson silver gray;
+             border-left-color: cyan silver gray white;
+}
+
+/* <h2> 

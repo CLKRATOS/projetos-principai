@@ -1,0 +1,15 @@
+@import "folha.css" tipo-midia;
+/* Comentários */
+@media tipo-midia {
+    seletor {
+        Propriedade: valor(es);
+    }
+} 
+
+/* <h2> Espaço em cada lados </h2> */
+
+body {padding-top: 2em;
+         padding-right: 1em 2em;
+             padding-bottom: 1em 2em 3em;
+                 padding-left: 1em 2em 3em 4em;
+}

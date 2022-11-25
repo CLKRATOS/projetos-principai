@@ -1,0 +1,16 @@
+@import "folha.css" tipo-midia;
+/* Comentários */
+@media tipo-midia {
+    seletor { 
+        Propriedade: valor(es);
+    }
+} 
+
+/* <h2> Tamanho das margens </h2> */
+
+body {margin-top: 2em;
+        margin-right: 1em 2em;
+         margin-bottom: 1em 2em 3em;
+             margin-left: 1em 2em 3em 4em;
+}
+

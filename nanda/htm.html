@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="text" id="n1">
+    <input type="text" id="n2">
+    <input type="button" value="nnn" onclick="b(style.margin = '30px')">
+ 
+    <script>
+        function b() {
+            var n1 = window.document.querySelector('#n1').value;
+            var n2 = window.document.querySelector("#n2").value;
+            alert(`Olá ${n1 } ${n2}`);
+            if(n1 == 'cleyton'){
+                document.body.innerHTML += '<p><strong>eu sou o melhor</strong></p>'
+            };
+        };
+    </script>
+
+</body>
+</html>

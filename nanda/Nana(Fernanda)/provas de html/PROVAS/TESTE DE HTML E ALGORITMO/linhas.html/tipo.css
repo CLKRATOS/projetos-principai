@@ -1,0 +1,17 @@
+h1 {
+    font-family: 'Time New Roman', 'Times New Roman', Times, serif
+}
+p {
+    font-family: 'Time New Roman', 'Times New Roman', Times, serif
+}
+table {
+    border-collapse: collapse;
+    //*CSS2*/
+    background: white;
+}
+td{
+    border: 1px solid black;
+}
+P {
+    font-family: 'Time New Roman', 'Times New Roman', Times, serif
+}

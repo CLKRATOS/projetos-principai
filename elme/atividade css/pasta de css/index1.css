@@ -1,0 +1,18 @@
+
+*{
+    margin: 0px;
+}
+
+.bo{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+  
+
+}
+.bo:hover{
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    border-radius: 30px;
+    transform: translate(  100px, 100px );
+}

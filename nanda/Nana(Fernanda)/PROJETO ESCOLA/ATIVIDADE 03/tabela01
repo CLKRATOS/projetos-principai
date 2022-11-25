@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+ <html lang="pt-br">
+    <head>
+          <meta charset="utf-8">
+          <title>Tabelas para web</title>
+          
+    </head>
+    <body>
+        <table width="310" 
+        height="105"
+        border="1"
+        cellpadding="2"
+        ellspacing="0"
+        bgcolor="#00CCFF">
+        <!-- Titulo na tabela HTML <capition> -->
+            <CAPTION> Capitais e seus estados </CAPITION>
+            <!-- representam títulos, ganhando um destaque em relação às demais células, <th>.  -->
+                <TH>Cidade</TH>
+                <TH>Estado</TH>
+                <TH>País</TH>
+                <tr>
+                    <td>Fortaleza</td>
+                    <td>Ceará</td>
+                    <td>Brasil</td>
+                </tr>
+                <tr>
+                    <td>Salvador</td>
+                    <td>Bahia</td>
+                    <td>Brasil</td>
+                </tr>
+                <tr>
+                    <td>Vitória</td>
+                    <td>Espírito Santo</td>
+                    <td>Brasil</td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <!-- efeito com tabela passando o mouse -->
+            <table width="310"
+            heigth="105"
+            border="0"
+            cellpadding="1"
+            cellspacing="2"
+            bgcolor="red">
+            <CAPITION> Capitais e seus estados </CAPTION>
+                <TH>Cidade</TH>
+                <TH>Estado</TH>
+                <TH>País</TH>
+                <tr>
+                    <td bgcolor="white" onmouseover="bgColor='orange'" onmouseout="bgcolor='white' ">Fortaleza</td">
+                    <td bgcolor="white" onmouseover="bgColor='orange'" onmouseout="bgcolor='white' ">Ceará</td">
+                    <td bgcolor="white" onmouseover="bgColor='orange'" onmouseout="bgcolor='white' ">Brasil</td"> 
+                    </tr>
+                    <tr>
+                    <td bgcolor="white" onmouseover="bgColor='#00FF66'" onmouseover="bgcolor='#3366FF' ">Salvador</td">
+                    <td bgcolor="white" onmouseover="bgColor='#00FF66'" onmouseover="bgcolor='#3366FF' ">Bahia</td"> 
+                    <td bgcolor="white" onmouseover="bgColor='#00FF66'" onmouseover="bgcolor='#3366FF' ">Brasil</td">     
+                    </tr>
+                    <tr>
+                    <td bgcolor="white" onmouseover="bgColor='#00FF66'" onmouseover="bgcolor='#3366FF' ">Vitória</td">
+                    <td bgcolor="white" onmouseover="bgColor='#00FF66'" onmouseover="bgcolor='#3366FF' ">Espírito Santo</td">
+                    <td bgcolor="white" onmouseover="bgColor='#00FF66'" onmouseover="bgcolor='#3366FF' ">Brasil</td">
+                    </td>
+                </table>
+                <br>
+            </body></html>
+                        
+                        
+
+
+

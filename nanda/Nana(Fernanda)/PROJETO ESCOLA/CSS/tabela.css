@@ -1,0 +1,22 @@
+@import "folha.css" tipo-midia;
+/* Comentários */
+@media tipo-midia {
+    seletor {
+        propriedade: valor(es);
+    }
+}
+
+/* <h2> Tabelas </h2> */
+
+e {caption-side: bottom;
+}
+table {table-layout: fixed;
+}
+table {border-collapse: collapse;
+}
+table {table-spacing: 15pt;
+}
+table {table-spacing: 10pt;
+}
+table {empty-cells: hide;
+}
