@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <main>
+        <h2>somar,subtração,mutiplicação, divisão,</h2>
+
+        <form action="">
+            <h3>escolha: + - x /</h3>
+            <label for="">n1</label>
+            <input type="text" id="n1"  >
+            <label for="">n2</label>
+            <input type="text" id="n2"  >
+            <input type="button" value="enviar" onclick="ca()"  >
+        </form>
+        <p id="p"></p>
+
+        <script>
+            function ca() {
+                var n1 = window.document.querySelector('#n1')
+                var n2 = window.document.querySelector('#n2')
+                var p = window.document.querySelector('#p')
+                var nu = Number(n1.value) + Number(n2.value) 
+                p.innerHTML = nu
+
+                
+            }
+
+
+
+
+
+
+
+        </script>
+
+    </main>
+</body>
+</html>
