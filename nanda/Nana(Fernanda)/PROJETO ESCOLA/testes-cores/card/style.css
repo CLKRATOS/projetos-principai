@@ -1,29 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
-
+  
 body{
     font-family: "Noto Serif", sans serif;
 }
 .content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    height: 100vw;
-}
-
-.card{
+    margin:7% auto;
+    text-align: center;
+    padding: 10px;
     background: #FFF;
     border-radius: 20px;
     box-shadow: 0px 2px 23px #40166663;
     width: 400px;
 }
 
+ 
+
 .mediaCard{
-    background-image: url(https://www.bing.com/images/search?view=detailV2&ccid=tsIWX5uA&id=B6BE5792440F95DC9799D3D05208831FD6E3D0CD&thid=OIP.tsIWX5uAvRbs9E7p1LQREAHaEK&mediaurl=https%3a%2f%2fwallpapershome.com%2fimages%2fwallpapers%2foneplus-7t-pro-mclaren-3840x2160-abstract-dark-4k-22264.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.b6c2165f9b80bd16ecf44ee9d4b41110%3frik%3dzdDj1h%252bDCFLQ0w%26pid%3dImgRaw%26r%3d0&exph=2160&expw=3840&q=Imagens+Dark+4K&simid=607997731329429546&FORM=IRPRST&ck=70ABD4B0985AF418A3E7208F0F6C9C29&selectedIndex=2);
-    background:  center cover;
+    margin: 0px -10px 0px -10px;
+    background-color: lightcoral;
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    background-position: center center;
+    background-size: cover;
     height: 250px;
-    width: 100%;
+    width: 105%;
 }
 
 .title{
