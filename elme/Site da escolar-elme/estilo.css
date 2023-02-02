@@ -54,7 +54,7 @@ header nav a:hover{
 main{
     margin:50px  auto;
     max-width: 90%;
-   
+     
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,8 +65,9 @@ main img{
 }
 /*parte onde vai manda a pergunta*/
 #contator{
+     
     display: flex;
-    width: 80%;
+    width: 70%;
     margin-bottom: 50px;
 }
 form{
